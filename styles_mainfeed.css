@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: HeronSansCond;
+
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.postfeed{
+    margin-bottom: 10vw;
+}
+
+.post{
+border: 5px;
+border-color: black;
+border-style: solid;
+margin: 2vw;
+padding: 10px;
+}
+
+.username{
+font-size: 2vw;
+}
+
+.userinfo{
+float:  right;
+font-size: 1vw;
+color: grey;
+}
+
+.posttext{
+font-size: 1vw;
+}
+
+
+
+.formflex{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    align-content: center;
+    
+}
+
+.actionPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-content: center;
+
+
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 10vw;   
+}
+
+.navigation{
+    text-align: right;
+}
+
+label{
+    font-size: 1.5vw;
+    padding-top: 100px;
+}
+
+input{
+    width: 31vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.submit{
+    margin-left: 1vw;
+    margin-top: 1.75vw;
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.submit:hover{
+    background-color: black;
+    border: 1%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    margin-left: 1vw;
+    margin-top: 3.8vw;
+    
+    background-color: white;
+    font-size: 1,5vw;
+    
+    width: fit-content;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: black;
+    border: 1%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+
+.Animation-video{
+    margin: 50%;
+    width: 600px;
+    height: 350px;
+    margin: 40px;
+    border: 5px;
+    border-style: solid;
+
+    
+
+}
+
+.allignvideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deletebutton{
+    float:  right;
+    font-size: 1vw;
+    margin: 1vw;
+    margin-top: 1.5vw;
+}
+
+
+.nopost{
+    text-align: center;
+    font-size: 3vw;
+
+}

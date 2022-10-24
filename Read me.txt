@@ -1,0 +1,32 @@
+
+De inhoud van deze folder moet gepaste worden in de folder htdocs te vinden in de folder xxamp.
+
+Als de inhoud is gepaste, en de server is aangezet, gaat u naar de link http://localhost/initializeDB.php .
+
+hier vult u de code "1751" in.
+
+Dit zorgt ervoor dat er automatisch een database wordt gemaakt met de juiste velden en tabellen.
+ook maakt dit een user aan op phpmyadmin die gebruikt wordt door mijn website om de database aan te passen.
+Deze user heeft beperkte rechten zodat de website beter beschermt is tegen hackers. 
+
+Nadat u de code heeft ingevuld en op "(Re-) initialize Database" heeft gedrukt verschijnt er de knop "visit the home page"
+deze knop brengt u rechtstreeks naar de mainpage van Shape. ( http://localhost/mainpage.php ).
+ 
+vanaf hier kunt u door klikken naar een account aan maken en daarna inloggen. Hierna blijft u ingelogd en wordt
+u automatisch gestuurd naar de mainfeed page als u probeert in te loggen of naar de home page te gaan. 
+
+(Bij het inloggen en account aanmaken zijn verschillende vangnetten in plaats om inconsistentie te voorkomen.) 
+
+
+Als u weer terug wilt naar de home page kunt u uitloggen door op log off te klikken. 
+
+Op basis van welk account u bent ingelogd zullen er delete knoppen verschijnen naast de post die uw account heeft gepost.
+Als u dus met een ander account inlogd kunt u alleen nog maar de posts van dat account verwijderen.  
+
+
+Uiteindelijk is de website niet compleet beveiligd omdat me dat niet nodig leek voor dit school project. Een voorbeeld
+van tekortkoming is dat de passwords niet gehashed worden opgeslagen in de database waardoor de passwords onbeveiligd
+worden verstuurd.  
+
+
+Als er verder nog problemen optreden kunt u mij natuurlijk een bericht sturen op teams. 

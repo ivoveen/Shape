@@ -1,0 +1,117 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    height: 100%;
+}
+
+.center-childs{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.black-background{
+    background-color: rgb(0, 0, 0);
+}
+
+.home-text{
+    font-family: HeronSansCond;
+    color: rgb(255, 255, 255);
+    font-size: 15vw;
+    
+    margin: 6vw;
+    padding: 10%;
+    width: fit-content;
+    border-style: solid;
+    border-width: 1vw;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.slogan{
+    font-family: HeronSansCond;
+    color: rgb(0, 0, 0);
+    font-size: 8vw;
+    margin-top: 12vw;
+    margin-bottom: 12vw;
+}
+
+button{
+    background: none;
+	color: inherit;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+a{
+   
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+
+.join-button{
+    padding: 1vw;
+    border: none;
+    text-decoration: underline;
+
+    margin: 5vw;
+
+    font-family: HeronSansCond;
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 6vw;
+
+    transition: all .2s ease-in-out; 
+}
+
+.join-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.fade-in{
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s; /* Firefox < 16 */
+     -ms-animation: fadein 6s; /* Internet Explorer */
+      -o-animation: fadein 6s; /* Opera < 12.1 */
+         animation: fadein 6s; /* chrome */
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+The contents of this folder must be pasted into the htdocs folder found in the xxamp folder.
+
+If this content has been pasted and the server has been turned on, go to the link http://localhost/initializeDB.php .
+
+here you enter the code "1751".
+
+This ensures that a database is automatically created with the correct fields and tables.
+this also creates an user on phpmyadmin which is used by my website to modify the database.
+This user has limited rights so that the website is better protected against hackers.
+
+After you have entered the code and clicked on "(Re-)initialize Database", the button "visit the home page" will appear.
+this button takes you directly to the main page of Shape. ( http://localhost/mainpage.php ).
+ 
+from here you can click through to create an account and then log in. After this you will remain logged in and will be
+automatically sent to the mainfeed page when you try go to the "log in" or "home" page.
+
+(When logging in and creating an account, several safety nets are in place to avoid inconsistency.)
+
+If you want to go back to the home page, you can log off by clicking on "log off".
+
+Based on which account you are logged in, delete buttons will appear next to the post that your account has posted.
+So if you log in with a different account, you can only delete the posts from that account.
+
+Ultimately, the website is not completely secured because I didn't think it was necessary for this school project. An example of
+the shortcoming is that the passwords are not hashed and stored in the database, which means the passwords
+could be intercepted while sending and used to hack into accounts.

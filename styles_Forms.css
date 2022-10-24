@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+.Signin{
+    background: url(img/business.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Signup{
+    background: url(img/business2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.Logoff{
+    background: url(img/sad.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+    color: white;
+    font-family: HeronSansCond;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+.header{
+    margin: 2vw;
+    padding: 1% 5% 1% 5% ;
+    width: 31vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+label{
+    font-size: 1.5vw;
+    padding-top: 100px;
+}
+
+input{
+    width: 31vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: black;
+    border: 1%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill::placeholder,
+input:-webkit-autofill:active{
+    font-size: 2rem  !important;
+}
+
+.underheader{
+margin: 2vw;
+width: 31vw;
+}
+
+.line{
+    width: 31vw;
+    margin-left: 0;
+}
+
+span{
+font-size: 1.5vw;
+}
+
+.divje{
+    height: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: white;
+    font-size: 1,5vw;
+    
+    width: 31vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: black;
+    border: 1%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vw;
+}
+
+
+.error{
+    font-size: 1vw;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.767);
+
+}
+
+.spacer{
+    min-height: 15%;
+    border: 0vw;
+    border-style: solid;
+    border-color: red;
+}
